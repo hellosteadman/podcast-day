@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'commodore64';
+    src: url('screen.woff2') format('woff2'),
+        url('screen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'commodore64', monospace;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 32px;
+    vertical-align: baseline;
+    user-select: none;
+    cursor: default;
+}
+
+body {
+    line-height: 1;
+    background: #6953F5;
+    color: #B19EFF;
+    margin: 0;
+    padding: 32px;
+    overflow: scroll;
+}
+
+input {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    color: #B19EFF;
+    outline: none;
+    border: none;
+    font-family: 'commodore64', monospace;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    font-style: normal;
+    cursor: default;
+}
+
+input:focus, input:active {
+    outline: none;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.blink {
+    animation: blink 1s steps(5, start) infinite;
+}
