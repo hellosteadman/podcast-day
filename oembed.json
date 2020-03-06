@@ -1,0 +1,8 @@
+{
+    "type": "video",
+    "html": "<iframe src=\"//podcast-day.netlify.com/\" width=\"100%\" height=\"480\" frameborder=\"0\"></iframe>",
+    "width": "100%",
+    "height": 480,
+    "version": 1.0,
+    "title": "Podcast Day"
+}
